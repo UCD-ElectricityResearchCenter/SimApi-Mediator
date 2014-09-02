@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE plot PUBLIC "-//UC Berkeley//DTD MoML 1//EN"
+    "http://ptolemy.eecs.berkeley.edu/xml/dtd/MoML_1.dtd">
+<configure>
+  <?moml
+    <group>
+       <entity name="MyRamp" class="myActors.MyRamp"/>
+       <entity name="DatabaseManager" class="myActors.DatabaseManager"/>
+       <entity name="DatabaseSelectTemSet" class="myActors.DatabaseSelectTemSet"/>
+       <entity name="DatabaseSelectTSetHea" class="myActors.DatabaseSelectTSetHea"/>
+       <entity name="DatabaseSelectTSetCoo" class="myActors.DatabaseSelectTSetCoo"/>
+       <entity name="DatabaseInsertResults" class="myActors.DatabaseInsertResults"/>
+       <entity name="TimestepValue" class="myActors.TimestepValue"/>
+    </group>
+  ?>
+</configure>
+
